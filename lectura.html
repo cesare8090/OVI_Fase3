@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+
+<title>O.V.I Diseño de Sitios WEB </title>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="ce" style="display:block"></div>
+<contenedor>
+	<titulo>
+		<div id="cabeza">
+		<h3>O.V.I Diseño de Sitios WEB </h3>
+		</div>
+		
+		<div id="Nav">
+			<div id="izq">
+			
+			</div>
+			
+			<div id="dere" >
+				<div class="navegacion"><a href="index.html">Inicio.</a></div> 
+				<div class="navegacion_home"><a href="">Material de Lectura O.V.I.</a></div> 
+				<div class="navegacion"><a href="multimedia.html">Material Multimedia. </a></div> 
+				<div class="navegacion"><a href="autor.html">Autor. </a></div> 
+			</div>
+		
+		</div>
+	
+	</titulo>
+	
+	<contenido>
+	   <article>
+		<div id="ti_con"><h1>Temas de Lectura:</h1></div>
+			<div id="html5" onClick="ver('html5_1');"><hr><h1>Presentación Introductoria a HTML5 <img src="img/icon_search.png" align="right" style="width:40px; height:40px;" ></h1></div>
+			<div id="html5_1" style="display:none" class="leer_pdf">
+				<h4>Estimado (a) estudiante a continuación encontrará una lectura diseñada por el equipo docente de la red académica de curso en formato de presentación sobre los elementos estructurales que conforman el lenguaje de diseño web HTML5, esperamos que pueda revisar este importante material y lo utilice como fuente de introducción al uso de este lenguaje, ya que este será utilizado para el desarrollo de actividades académicas dentro del curso.</h4>
+					<div>
+						<iframe
+					  	 src="Documentos\HTML5.pdf"
+					  	 style="width:100%; height:500px;"
+					  	 frameborder="0"> 
+						</iframe>
+					
+					</div>
+		
+			</div>
+			
+			<!---------------------->
+			
+			<div id="Section" onClick="ver('html5_2');"><hr><h1>Section, Footer, Aside, Article y Tipografía <img src="img/icon_search.png" align="right" style="width:40px; height:40px;" ></h1></div>
+			<div id="html5_2" style="display:none" class="leer_pdf">
+				<h4>Estimado (a) estudiante a continuación encontrará una lectura diseñada por el equipo docente de la red académica de curso en formato de presentación sobre las etiquetas: Section, Footer, Aside, Article del lenguaje HTML5 y Tipografía para la web. Esperamos que pueda revisar este importante material y lo utilice como fuente de introducción al uso de este lenguaje, ya que este será utilizado para el desarrollo de actividades académicas dentro del curso.</h4>
+					<div>
+						<iframe width="100%" height="500" src="Documentos/guia2.pdf" frameborder="0" widhth="1200"></iframe>					
+					</div>
+		
+			</div>
+			
+			<!---------------------->
+			
+			<div id="css" onClick="ver('css_3');"><hr><h1>Guía Completa sobre CSS3 Antonio Navajas <img src="img/icon_search.png" align="right" style="width:40px; height:40px;" ></h1></div>
+			<div id="css_3" style="display:none" class="leer_pdf">
+				<h4>Estimado (a) estudiante a continuación encontrará un libro de acceso libre elaborado por Antonio Navajas Ojeda, el cual posee un curso practico paso a paso sobre CSS3, este completo material de seguro le será de mucha ayuda en su proceso de formación, esperamos le pueda dar un uso adecuado y sobre todo lea y practique mucho.</h4>
+					<div>
+						<iframe width="100%" height="500" src="Documentos/CursoCSS3.pdf" frameborder="0" widhth="1200"></iframe>					
+					</div>
+		
+			</div>
+			
+			<!---------------------->
+			
+			<div id="GuiaCSS3" onClick="ver('GuiaCSS3_4');"><hr><h1>A Guide to HTML5 and CSS3 <img src="img/icon_search.png" align="right" style="width:40px; height:40px;" ></h1></div>
+			<div id="GuiaCSS3_4" style="display:none" class="leer_pdf">
+				<h4>Estimado (a) estudiante a continuación Ashley Menhennett y Pablo Farias Navarro desde su comunidad de desarrollo Front End llamada ZENVA, nos ofrecen un importante material libre a manera de guía sobre HTML5 y CSS3, aunque este material esta en idioma inglés, sabemos que será de mucha ayuda en su proceso de formación, esperamos que pueda hacer un uso adecuado de este. </h4>
+					<div>
+						<iframe width="100%" height="500" src="Documentos/GuiaCSS3.pdf" frameborder="0" widhth="1200"></iframe>					
+					</div>
+		
+			</div>
+			
+			
+			
+		</article>
+			
+	</contenido>
+	
+	<asise>
+		<a class="twitter-timeline" data-height="650" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</asise>
+	
+		
+	
+	<pie>
+	<div id="img_pie"><img src="img/M0736336e7fec2f1e1612cc55e92397bd1583466071209.png"  style="width:100%; height:150px;"/></div>
+	<div id="version" align="center"><h3>Desarrollado por: Estudiante Cesar Eliecer sandoval Chisco </br> Universidad Nacional Abierta y a Distancia UNA - (2020)</h3></div>
+
+	
+	
+	</pie>
+
+</contenedor>
+<script  type="text/javascript">
+// JavaScript Document
+function ver(dato){
+	$(".leer_pdf").css("display","none");
+	var rec= "#"+dato;
+	var display = $(rec).css("display");
+		
+	if (display == "none") {
+			$(rec).css("display","block");
+		} else {
+			$(rec).css("display", "none");
+		}
+		
+	
+}
+</script>
+</body>
+</html>

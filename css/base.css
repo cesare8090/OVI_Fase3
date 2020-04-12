@@ -1,0 +1,37 @@
+/* CSS Document */
+body{margin:0;padding:0 10px 10px 10px;font-family:Playfair Display;font-size:.8em}
+
+
+h1{font-size:2em}
+h2{font-size:2em}
+h3{font-size:1.5em}
+h4{font-size:1.3em}
+h5{font-size:1em}
+p{margin:1em 0}
+
+
+
+#cabeza{text-align: center;height:50px;padding-left:20px; font-size:2.2em;font-weight:bold; color:#FFFFFF; background-color:#000000}
+
+#Nav{ width:100%; }
+#Nav #izq{ background-image:url(../img/M4bb064fb3e043d7f6629a55c09fef8c91583465856272.png); background-size:100% 100%; height:300px; width:50%; float:left;}
+#Nav #dere{background-image:url(../img/fondo_azul.JPG); background-size:100% 100%; height:300px; width:50%; float:left;}
+
+.navegacion{ background-color:#FFFFFF; text-decoration:none; float:right; width:80%; text-align:center; border: solid 1px #000000; padding:10px; margin: 10px; border-radius: 8px;}
+.navegacion a{text-decoration:none; font-size:25px; }
+.navegacion_home{ background-color: #0099FF; text-decoration:none; float:right; width:80%; text-align:center; border: solid 1px #000000; padding:10px; margin: 10px; border-radius: 8px; }
+.navegacion_home a{text-decoration:none; font-size:25px; color:#FFFFFF }
+
+asise{width:30%; float:left}
+contenido{width:70%;float:left; font-family:Playfair Display;  }
+article{ border:solid 2px #CCCCCC; margin:5px; padding:5px; margin-top:5px;}
+
+#ti_con{ background-color:#000000; color:#FFFFFF; height:50px;}
+
+#Bibliografia2_1{font-size:1.3em}
+li{font-size:1.3em; padding:5px;}
+
+
+
+
+
